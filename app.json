@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "CalSnap",
+    "slug": "calsnap",
+    "version": "1.0.0",
+    "scheme": "calsnap",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.calsnap.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "CalSnap cần truy cập camera để chụp ảnh đồ ăn và bài tập."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "CalSnap cần truy cập thư viện ảnh để chọn ảnh."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png"
+        }
+      ]
+    ]
+  }
+}

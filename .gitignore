@@ -1,0 +1,108 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# ========================
+# THÔNG TIN NHẠY CẢM
+# ========================
+
+# Environment variables (Supabase URL, API keys, Gemini key...)
+.env
+.env.*
+.env*.local
+!.env.example
+
+# Supabase
+supabase/.env
+supabase/.temp/
+
+# Google / Gemini API
+google-services.json
+GoogleService-Info.plist
+service-account*.json
+
+# Apple certificates & signing
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.provisioning
+*.cer
+*.certSigningRequest
+AuthKey_*.p8
+
+# EAS credentials
+credentials.json
+eas-credentials.json
+
+# SSH keys
+id_rsa
+id_ed25519
+*.pub
+
+# Secrets / tokens
+*.secret
+*.secrets
+secrets/
+.secrets/
+tokens.json
+
+# ========================
+# DEPENDENCIES
+# ========================
+node_modules/
+
+# ========================
+# EXPO / METRO
+# ========================
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+
+# ========================
+# NATIVE BUILD
+# ========================
+/ios
+/android
+.kotlin/
+*.orig.*
+*.jks
+*.hbc
+
+# ========================
+# DEBUG & LOGS
+# ========================
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# ========================
+# OS FILES
+# ========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# ========================
+# IDE
+# ========================
+.idea/
+.vscode/
+*.code-workspace
+
+# ========================
+# TYPESCRIPT
+# ========================
+*.tsbuildinfo
+
+# ========================
+# MISC
+# ========================
+*.pem
+coverage/
+tmp/
+temp/

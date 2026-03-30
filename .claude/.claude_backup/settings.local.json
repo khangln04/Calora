@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-expo-app@latest . --template blank-typescript)",
+      "Bash(mv .claude ../.claude_backup)",
+      "Bash(mv docs:*)"
+    ]
+  }
+}
