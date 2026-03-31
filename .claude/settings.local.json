@@ -4,7 +4,23 @@
       "Bash(mv ../.claude_backup .claude)",
       "Bash(mv ../docs_backup docs)",
       "Bash(npx expo:*)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(where claude:*)",
+      "Bash(npm list:*)",
+      "Read(//c/Users/Admin/.local/bin/**)",
+      "Read(//usr/local/bin/**)",
+      "Bash(code --list-extensions)",
+      "Bash(find /d/Person/Calora/components -type f \\\\\\(-name *.tsx -o -name *.ts \\\\\\))",
+      "Bash(grep -r \"setFlag.*darkMode\\\\|darkMode.*setFlag\" /d/Person/Calora --include=*.ts --include=*.tsx --include=*.js)",
+      "Bash(find /d/Person/Calora/node_modules/nativewind -name preset* -type f)",
+      "Bash(find /d/Person/Calora/node_modules/nativewind -name index.* -type f)",
+      "Bash(grep -r \"preset\\\\|darkMode\" /d/Person/Calora/node_modules/nativewind/dist --include=*.js)",
+      "Bash(grep -r \"darkMode.*media\\\\|setFlag.*darkMode\" /d/Person/Calora/node_modules/nativewind/dist/tailwind --include=*.js)",
+      "Bash(ls d:/Person/Calora/app/\\\\\\(auth\\\\\\)/)",
+      "Bash(ls d:/Person/Calora/app/\\\\\\(main\\\\\\)/)",
+      "Bash(ls d:/Person/Calora/app/\\\\\\(main\\\\\\)/chat/)",
+      "Bash(ls d:/Person/Calora/app/\\\\\\(main\\\\\\)/post/)",
+      "Bash(ls d:/Person/Calora/app/\\\\\\(main\\\\\\)/profile/)"
     ]
   }
 }
